@@ -8,6 +8,7 @@
  *
  * Return: changed results/outcome
  */
+
 char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int i;
