@@ -1,6 +1,6 @@
 #include "main.h"
 
-/*
+/**
  * *_memcpy - copy memory address
  *
  * @dest: stored memory address
