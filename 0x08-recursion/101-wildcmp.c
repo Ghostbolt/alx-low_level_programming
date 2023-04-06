@@ -3,7 +3,7 @@
 /**
  * wildcmp - ze comparor
  * @s1: 1st string input
- * :s2: 2nd string input
+ * @s2: 2nd string input
  * Return: T or F
  */
 int wildcmp(char *s1, char *s2)
