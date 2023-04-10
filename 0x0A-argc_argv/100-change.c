@@ -2,11 +2,11 @@
 #include <stdlib.h>
 
 /**
- * main - coins to make change for money
- * @argc: number n arguments
- * @argv: array with the arguments
- * Return: 0 for success
- **/
+ * main - Takes in exactly one argument for minimum coin count
+ * @argc: Number of command line arguments
+ * @argv: Array name
+ * Return: 0 if exactly 1 argument is passed into this program, 1 otherwise
+ */
 int main(int argc, char *argv[])
 {
 	int val = 0, coins = 0;
