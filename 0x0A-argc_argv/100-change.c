@@ -2,11 +2,11 @@
 #include <stdlib.h>
 
 /**
- * main -  coins to make change for money.
+ * main - coins to make change for money.
  * @argc: number of arguments
  * @argv: array with the arguments
  *
- * Return: always 0
+ * Return: 0 for success and 1 for unsuccesful
  **/
 
 int main(int argc, char *argv[])
@@ -49,10 +49,7 @@ int main(int argc, char *argv[])
 	{
 		coins++;
 	}
-	else
-	{
-		printf("%d\n", coins);
-	}
+	printf("%d\n", coins);
 
 	return (0);
 }
