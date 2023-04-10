@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
 	int val = 0, coins = 0;
 	char c[] = "Error";
 
-	if (argc < 2 || > 2)
+	if (argc < 2 || argc > 2)
 	{
 		printf("%s\n", c);
 		return (1);
