@@ -2,19 +2,17 @@
 #include <stdlib.h>
 
 /**
- * main - coins to make change for money.
- * @argc: number of arguments
+ * main - coins to make change for money
+ * @argc: number n arguments
  * @argv: array with the arguments
- *
- * Return: 0 for success and 1 for unsuccesful
+ * Return: 0 for success
  **/
-
 int main(int argc, char *argv[])
 {
 	int val = 0, coins = 0;
 	char c[] = "Error";
 
-	if (argc != 2)
+	if (argc < 2 || > 2)
 	{
 		printf("%s\n", c);
 		return (1);
