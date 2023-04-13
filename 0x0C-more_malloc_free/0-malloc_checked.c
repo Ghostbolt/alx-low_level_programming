@@ -6,7 +6,6 @@
  *@b: size of the memory to be allocated.
  *Return: pointer;
  **/
-
 void *malloc_checked(unsigned int b)
 {
 	char *p;
