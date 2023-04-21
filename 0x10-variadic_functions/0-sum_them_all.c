@@ -2,7 +2,7 @@
 #include <stdarg.h>
 
 /**
- * iSum_them_all - parameter sum
+ * sum_them_all - parameter sum
  * @n: parameter num
  * @...: parameter var
  * Return: n
